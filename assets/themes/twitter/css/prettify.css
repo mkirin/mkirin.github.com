@@ -2,11 +2,13 @@
 /* Original theme - http://noahfrederick.com/vim-color-scheme-hemisu/ */
 .prettyprint {
   background: white;
-  font-family: Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, Consolas, monospace;
+  font-family: 'FontAwesome';
   font-size: 13px;
   line-height: 1.5 !important;
   border: 1px solid #ccc;
   padding: 10px;
+  padding-top: 70px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .pln {

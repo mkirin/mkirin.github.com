@@ -1,14 +1,19 @@
-body{ background: url("img/body_bg.png") repeat;}
+body{
+  padding-top: 70px;
+  font-family: 'FontAwesome';
+  -webkit-font-smoothing: antialiased;
+  background: url("img/body_bg.png") repeat;}
 h1{
-    font-family: Arial,"楷体";
+    font-family: Arial,"Microsoft YaHei";
 }
 .fa.fa-arrow-circle-right{
-    margin-right: 15px;
+  margin-right: 15px;
 }
  
 /*navbar bgcolor -- float*/
 .navbar .navbar-inner{ 
-  background-color: #00a9a9;
+  background-color: #474d57;
+  border-color: #383838;
   }
 
 .navbar .nav {  
@@ -57,7 +62,16 @@ h1{
 .post-full .date { 
   margin-bottom: 20px;
   font-weight: bold; }
-
+.date_label{
+  background: #D45255;
+}
+.date_label::before {
+      content: "";
+        border: 1.5em solid #D45255;
+}
+.date_label::after {
+  border-right: 1em solid #D47275;
+}
 /* tag_box */
 .tag_box { 
   list-style: none;

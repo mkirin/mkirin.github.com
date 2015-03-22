@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 寂寞先生
-tagline: 这，是一个寂寞的世界……
+title: mkirin
+tagline: mind is a mind
 ---
 {% include JB/setup %}
 
@@ -15,6 +15,7 @@ tagline: 这，是一个寂寞的世界……
       			{{ post.date | date:"%Y" }}
       			</div>
       		</div> 
+   <h1 style="margin-top=-10px;"> <a class="fa fa-link" href="{{ BASE_PATH }}{{ post.url }}"> {{post.title}}</a></h1>
 		{{ post.content  | | split:'<!--break-->' | first }}
 	<div class = "read_more">
 		<a class="fa fa-link" href="{{ BASE_PATH }}{{ post.url }}">  查看全文&hellip;</a>
